@@ -10,7 +10,7 @@ class GCD
         System.out.print("Enter the second number: ");
         int n2 = s.nextInt();
         int gcd = findGCD(n1, n2);
-        System.out.println("GCD of " + num1 + " and " + num2 + " is: " + gcd);
+        System.out.println("GCD of " + n1 + " and " + n2 + " is: " + gcd);
     }
 
     public static int findGCD(int a, int b) 
